@@ -1,0 +1,10 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on hd(Press CTRL+C to quit)
+INFO:werkzeug:192.168.0.20 - - [05/Sep/2021 20:16:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.20 - - [05/Sep/2021 20:16:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:app:Status request successful
+INFO:werkzeug:192.168.0.20 - - [05/Sep/2021 20:17:03] "GET /status HTTP/1.1" 200 -
+INFO:app:Metrics request successful
+INFO:werkzeug:192.168.0.20 - - [05/Sep/2021 20:17:10] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.20 - - [05/Sep/2021 20:57:42] "[33mGET /notfound HTTP/1.1[0m" 404 -
